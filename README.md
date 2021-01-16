@@ -9,9 +9,11 @@ Computer Vision (CV) has a lot of applications in medical diagnosis:
 # Histopathology.
 X-rays images are critical for the detection of lung cancer, pneumenia ... In this notebook you will learn:
 
-Data pre-processing
-Preprocess images properly for the train, validation and test sets.
-Set-up a pre-trained neural network to make disease predictions on chest X-rays.
+![X-ray](https://user-images.githubusercontent.com/57557590/104820505-46962000-584a-11eb-9146-73c4af1e0de3.PNG)
+
+**Data pre-processing**
+**Preprocess images properly for the train, validation and test sets.**
+**Set-up a pre-trained neural network to make disease predictions on chest X-rays.**
 In this notebook you will work with chest X-ray images taken from the public ChestX-ray8 dataset.
 
 # What is Pneumonia ?
@@ -25,4 +27,24 @@ Pneumonia can range in seriousness from mild to life-threatening. It is most ser
 
 # Computer Vision
 Computer vision is an interdisciplinary scientific field that deals with how computers can gain a high-level understanding from digital images or videos. From the perspective of engineering, it seeks to understand and automate tasks that the human visual system can do. We can use Computer Vision to determine whether a person is affected by pneumonia or not.
+
+**Pneumonia Detection with Convolutional Neural Networks**
+Computer Vision can be realized using Convolutional neural networks (CNN) They are neural networks making features extraction over an image before classifying it. The feature extraction performed consists of three basic operations:
+
+**Filter an image for a particular feature (convolution)**
+**Detect that feature within the filtered image (using the ReLU activation)**
+**Condense the image to enhance the features (maximum pooling)**
+
+The accuracy of the CNN model could be shown as below:
+
+![accuracy](https://user-images.githubusercontent.com/57557590/104820572-e18efa00-584a-11eb-8487-6534cdf7569f.PNG)
+
+### Transfer Learning
+In deep learning, transfer learning is a technique whereby a neural network model is first trained on a problem similar to the problem that is being solved. One or more layers from the trained model are then used in a new model trained on the problem of interest.
+
+**DenseNet**
+**VGG16**
+**ResNet**
+**InceptionNet**
+
 
