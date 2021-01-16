@@ -48,6 +48,7 @@ The accuracy of the CNN model could be shown as below:
 In deep learning, transfer learning is a technique whereby a neural network model is first trained on a problem similar to the problem that is being solved. One or more layers from the trained model are then used in a new model trained on the problem of interest.
 
 **DenseNet**
+
 Densenet is a convolutional network where each layer is connected to all other layers that are deeper in the network:
 
 1) The first layer is connected to the 2nd, 3rd, 4th etc.
@@ -57,21 +58,25 @@ Densenet is a convolutional network where each layer is connected to all other l
 ![Densnet](https://user-images.githubusercontent.com/57557590/104820637-7eea2e00-584b-11eb-83e0-36e97c6a7144.png)
 
 **VGG16**
+
 Presented in 2014, VGG16 has a very simple and classical architecture, with blocks of 2 or 3 convolutional layers followed by a pooling layer, plus a final dense network composed of 2 hidden layers (of 4096 nodes each) and one output layer (of 1000 nodes). Only 3x3 filters are used.
 
 ![vgg](https://user-images.githubusercontent.com/57557590/104820658-a93beb80-584b-11eb-8974-01c778686656.png)
 
 **ResNet**
+
 See the full explanation and schemes in the Research Paper on Deep Residual Learning 
 
 (https://arxiv.org/pdf/1512.03385.pdf)
 
 **InceptionNet**
+
 Also known as GoogleNet, this architecture presents sub-networks called inception modules, which allows fast training computing, complex patterns detection, and optimal use of parameters
 
 for more information visit https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf
 
 For more information check out my Kaggle Profile here for this Notebook:
+
 https://www.kaggle.com/homayoonkhadivi/medical-diagnosis-with-cnn-transfer-learning
 
 
