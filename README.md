@@ -79,4 +79,5 @@ For more information check out my Kaggle Profile here for this Notebook:
 
 https://www.kaggle.com/homayoonkhadivi/medical-diagnosis-with-cnn-transfer-learning
 
+This notebook have already gained Silver Medal in Kaggle
 
